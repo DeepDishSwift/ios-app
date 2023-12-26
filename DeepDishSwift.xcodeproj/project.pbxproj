@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD437D62B3B5E9300A2553E /* DeepDishSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD437D52B3B5E9300A2553E /* DeepDishSwiftApp.swift */; };
+		2CD437D82B3B5E9300A2553E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD437D72B3B5E9300A2553E /* ContentView.swift */; };
+		2CD437DA2B3B5E9300A2553E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD437D92B3B5E9300A2553E /* Item.swift */; };
+		2CD437DC2B3B5E9400A2553E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD437DB2B3B5E9400A2553E /* Assets.xcassets */; };
+		2CD437E02B3B5E9400A2553E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD437DF2B3B5E9400A2553E /* Preview Assets.xcassets */; };
+		2CD437EB2B3B5E9400A2553E /* DeepDishSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD437EA2B3B5E9400A2553E /* DeepDishSwiftTests.swift */; };
+		2CD437F52B3B5E9400A2553E /* DeepDishSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD437F42B3B5E9400A2553E /* DeepDishSwiftUITests.swift */; };
+		2CD437F72B3B5E9400A2553E /* DeepDishSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD437F62B3B5E9400A2553E /* DeepDishSwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD437E72B3B5E9400A2553E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD437CA2B3B5E9300A2553E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD437D12B3B5E9300A2553E;
+			remoteInfo = DeepDishSwift;
+		};
+		2CD437F12B3B5E9400A2553E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD437CA2B3B5E9300A2553E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD437D12B3B5E9300A2553E;
+			remoteInfo = DeepDishSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CD437D22B3B5E9300A2553E /* DeepDishSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDishSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD437D52B3B5E9300A2553E /* DeepDishSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDishSwiftApp.swift; sourceTree = "<group>"; };
+		2CD437D72B3B5E9300A2553E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CD437D92B3B5E9300A2553E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2CD437DB2B3B5E9400A2553E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CD437DD2B3B5E9400A2553E /* DeepDishSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeepDishSwift.entitlements; sourceTree = "<group>"; };
+		2CD437DF2B3B5E9400A2553E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CD437E12B3B5E9400A2553E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD437E62B3B5E9400A2553E /* DeepDishSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDishSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD437EA2B3B5E9400A2553E /* DeepDishSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDishSwiftTests.swift; sourceTree = "<group>"; };
+		2CD437F02B3B5E9400A2553E /* DeepDishSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDishSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD437F42B3B5E9400A2553E /* DeepDishSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDishSwiftUITests.swift; sourceTree = "<group>"; };
+		2CD437F62B3B5E9400A2553E /* DeepDishSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDishSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD437CF2B3B5E9300A2553E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD437E32B3B5E9400A2553E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD437ED2B3B5E9400A2553E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD437C92B3B5E9300A2553E = {
+			isa = PBXGroup;
+			children = (
+				2CD437D42B3B5E9300A2553E /* DeepDishSwift */,
+				2CD437E92B3B5E9400A2553E /* DeepDishSwiftTests */,
+				2CD437F32B3B5E9400A2553E /* DeepDishSwiftUITests */,
+				2CD437D32B3B5E9300A2553E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD437D32B3B5E9300A2553E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD437D22B3B5E9300A2553E /* DeepDishSwift.app */,
+				2CD437E62B3B5E9400A2553E /* DeepDishSwiftTests.xctest */,
+				2CD437F02B3B5E9400A2553E /* DeepDishSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD437D42B3B5E9300A2553E /* DeepDishSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2CD437D52B3B5E9300A2553E /* DeepDishSwiftApp.swift */,
+				2CD437D72B3B5E9300A2553E /* ContentView.swift */,
+				2CD437D92B3B5E9300A2553E /* Item.swift */,
+				2CD437DB2B3B5E9400A2553E /* Assets.xcassets */,
+				2CD437DD2B3B5E9400A2553E /* DeepDishSwift.entitlements */,
+				2CD437E12B3B5E9400A2553E /* Info.plist */,
+				2CD437DE2B3B5E9400A2553E /* Preview Content */,
+			);
+			path = DeepDishSwift;
+			sourceTree = "<group>";
+		};
+		2CD437DE2B3B5E9400A2553E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CD437DF2B3B5E9400A2553E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CD437E92B3B5E9400A2553E /* DeepDishSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD437EA2B3B5E9400A2553E /* DeepDishSwiftTests.swift */,
+			);
+			path = DeepDishSwiftTests;
+			sourceTree = "<group>";
+		};
+		2CD437F32B3B5E9400A2553E /* DeepDishSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD437F42B3B5E9400A2553E /* DeepDishSwiftUITests.swift */,
+				2CD437F62B3B5E9400A2553E /* DeepDishSwiftUITestsLaunchTests.swift */,
+			);
+			path = DeepDishSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD437D12B3B5E9300A2553E /* DeepDishSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD437FA2B3B5E9400A2553E /* Build configuration list for PBXNativeTarget "DeepDishSwift" */;
+			buildPhases = (
+				2CD437CE2B3B5E9300A2553E /* Sources */,
+				2CD437CF2B3B5E9300A2553E /* Frameworks */,
+				2CD437D02B3B5E9300A2553E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepDishSwift;
+			productName = DeepDishSwift;
+			productReference = 2CD437D22B3B5E9300A2553E /* DeepDishSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CD437E52B3B5E9400A2553E /* DeepDishSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD437FD2B3B5E9400A2553E /* Build configuration list for PBXNativeTarget "DeepDishSwiftTests" */;
+			buildPhases = (
+				2CD437E22B3B5E9400A2553E /* Sources */,
+				2CD437E32B3B5E9400A2553E /* Frameworks */,
+				2CD437E42B3B5E9400A2553E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD437E82B3B5E9400A2553E /* PBXTargetDependency */,
+			);
+			name = DeepDishSwiftTests;
+			productName = DeepDishSwiftTests;
+			productReference = 2CD437E62B3B5E9400A2553E /* DeepDishSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CD437EF2B3B5E9400A2553E /* DeepDishSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD438002B3B5E9400A2553E /* Build configuration list for PBXNativeTarget "DeepDishSwiftUITests" */;
+			buildPhases = (
+				2CD437EC2B3B5E9400A2553E /* Sources */,
+				2CD437ED2B3B5E9400A2553E /* Frameworks */,
+				2CD437EE2B3B5E9400A2553E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD437F22B3B5E9400A2553E /* PBXTargetDependency */,
+			);
+			name = DeepDishSwiftUITests;
+			productName = DeepDishSwiftUITests;
+			productReference = 2CD437F02B3B5E9400A2553E /* DeepDishSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD437CA2B3B5E9300A2553E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2CD437D12B3B5E9300A2553E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					2CD437E52B3B5E9400A2553E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2CD437D12B3B5E9300A2553E;
+					};
+					2CD437EF2B3B5E9400A2553E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2CD437D12B3B5E9300A2553E;
+					};
+				};
+			};
+			buildConfigurationList = 2CD437CD2B3B5E9300A2553E /* Build configuration list for PBXProject "DeepDishSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD437C92B3B5E9300A2553E;
+			productRefGroup = 2CD437D32B3B5E9300A2553E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD437D12B3B5E9300A2553E /* DeepDishSwift */,
+				2CD437E52B3B5E9400A2553E /* DeepDishSwiftTests */,
+				2CD437EF2B3B5E9400A2553E /* DeepDishSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD437D02B3B5E9300A2553E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD437E02B3B5E9400A2553E /* Preview Assets.xcassets in Resources */,
+				2CD437DC2B3B5E9400A2553E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD437E42B3B5E9400A2553E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD437EE2B3B5E9400A2553E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD437CE2B3B5E9300A2553E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD437D82B3B5E9300A2553E /* ContentView.swift in Sources */,
+				2CD437DA2B3B5E9300A2553E /* Item.swift in Sources */,
+				2CD437D62B3B5E9300A2553E /* DeepDishSwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD437E22B3B5E9400A2553E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD437EB2B3B5E9400A2553E /* DeepDishSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD437EC2B3B5E9400A2553E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD437F72B3B5E9400A2553E /* DeepDishSwiftUITestsLaunchTests.swift in Sources */,
+				2CD437F52B3B5E9400A2553E /* DeepDishSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD437E82B3B5E9400A2553E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD437D12B3B5E9300A2553E /* DeepDishSwift */;
+			targetProxy = 2CD437E72B3B5E9400A2553E /* PBXContainerItemProxy */;
+		};
+		2CD437F22B3B5E9400A2553E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD437D12B3B5E9300A2553E /* DeepDishSwift */;
+			targetProxy = 2CD437F12B3B5E9400A2553E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CD437F82B3B5E9400A2553E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CD437F92B3B5E9400A2553E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2CD437FB2B3B5E9400A2553E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepDishSwift/DeepDishSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepDishSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 972KS36P2U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepDishSwift/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdishswift.DeepDishSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CD437FC2B3B5E9400A2553E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeepDishSwift/DeepDishSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepDishSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 972KS36P2U;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepDishSwift/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdishswift.DeepDishSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CD437FE2B3B5E9400A2553E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 972KS36P2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdishswift.DeepDishSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDishSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeepDishSwift";
+			};
+			name = Debug;
+		};
+		2CD437FF2B3B5E9400A2553E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 972KS36P2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdishswift.DeepDishSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepDishSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeepDishSwift";
+			};
+			name = Release;
+		};
+		2CD438012B3B5E9400A2553E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 972KS36P2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdishswift.DeepDishSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepDishSwift;
+			};
+			name = Debug;
+		};
+		2CD438022B3B5E9400A2553E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 972KS36P2U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepdishswift.DeepDishSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepDishSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD437CD2B3B5E9300A2553E /* Build configuration list for PBXProject "DeepDishSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD437F82B3B5E9400A2553E /* Debug */,
+				2CD437F92B3B5E9400A2553E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD437FA2B3B5E9400A2553E /* Build configuration list for PBXNativeTarget "DeepDishSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD437FB2B3B5E9400A2553E /* Debug */,
+				2CD437FC2B3B5E9400A2553E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD437FD2B3B5E9400A2553E /* Build configuration list for PBXNativeTarget "DeepDishSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD437FE2B3B5E9400A2553E /* Debug */,
+				2CD437FF2B3B5E9400A2553E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD438002B3B5E9400A2553E /* Build configuration list for PBXNativeTarget "DeepDishSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD438012B3B5E9400A2553E /* Debug */,
+				2CD438022B3B5E9400A2553E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD437CA2B3B5E9300A2553E /* Project object */;
+}
